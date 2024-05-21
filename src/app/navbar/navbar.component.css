@@ -1,0 +1,62 @@
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDFCAD;
+    padding: 20px 50px;
+}
+
+.navbar-main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar-main h1 {
+    color: #646165;
+    margin-right: 50px;
+    cursor:pointer;
+}
+
+.navbar-main input[type="text"] {
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    width: 75%;
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #646165;
+    background-color: #C8E087;
+    margin-right: 50px;
+}
+
+.cart-icon,
+.account-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #95A472;
+    margin-right: 25px;
+    cursor:pointer;
+}
+
+.navbar-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-categories ul {
+    display: flex;
+    gap: 100px;
+}
+
+.navbar-categories li {
+    color: #646165;
+    cursor: pointer;
+}
