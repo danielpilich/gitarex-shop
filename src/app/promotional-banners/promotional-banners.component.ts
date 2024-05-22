@@ -46,8 +46,13 @@ export class PromotionalBannersComponent implements AfterViewInit {
     if (this.currentBanner === 0) {
       this.isTransitioning = true;
       setTimeout(() => {
-        this.currentBanner = this.banners.length;
+        this.currentBanner = 3;  // Quickly switch to the first banner
         this.resetBannerPosition();
+        setTimeout(() => {
+          this.currentBanner = 3;  // Go to the first banner
+          this.updateBannerPosition();
+          this.isTransitioning = false;
+        }, 50); // Short delay to re-enable the transition
       }, 500); // Match the CSS transition duration
     }
   }
