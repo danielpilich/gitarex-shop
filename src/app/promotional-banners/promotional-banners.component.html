@@ -1,0 +1,15 @@
+<div class="promotional-banners">
+
+    <div class="carousel">
+      <button (click)="prevBanner()" class="nav prev">&lt;</button>
+      <div class="banner-wrapper">
+        <div class="banner-container">
+          <div class="banner" *ngFor="let banner of displayedBanners; let i = index" [class.active]="i === currentBanner">
+            <img [src]="banner.image" alt="Promotional Banner">
+          </div>
+        </div>
+      </div>
+      <button (click)="nextBanner()" class="nav next">&gt;</button>
+    </div>
+  </div>
+  
