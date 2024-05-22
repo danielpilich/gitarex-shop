@@ -176,3 +176,7 @@
       margin-block: 1.5rem;
     }
   }
+  .spacer {
+    height: 20px; /* Adjust the height as needed */
+  }
+  
