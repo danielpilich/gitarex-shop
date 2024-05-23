@@ -23,4 +23,8 @@ export class AppComponent {
     console.log('Navigating to contact page');
     this.router.navigate(['/contact']);
   }
+  navigateToProduct() {
+    console.log('Navigating to product page');
+    this.router.navigate(['/product']);
+  }
 }

@@ -1,0 +1,43 @@
+<div class="product-container">
+    <div class="product-image">
+      <img [src]="product.image" alt="{{ product.name }}">
+    </div>
+    <div class="product-details">
+      <h1>{{ product.name }}</h1>
+      <div class="rating">
+        <span *ngFor="let star of [].constructor(5); let i = index" [class.filled]="i < product.rating">&#9733;</span>
+        <span>({{ product.reviews }} Opinie)</span>
+      </div>
+      <ul class="product-info">
+        <li *ngFor="let info of product.info">{{ info }}</li>
+      </ul>
+      <div class="price">
+        <span class="current-price">{{ product.price | currency:'PLN' }}</span>
+        <span class="old-price">{{ product.oldPrice | currency:'PLN' }}</span>
+      </div>
+      <div class="purchase">
+        <input type="number" [(ngModel)]="quantity" min="1">
+        <button (click)="addToCart()">Dodaj do Koszyka</button>
+      </div>
+    </div>
+  </div>
+  <div class="product-description-container">
+    <div class="product-description">
+      <h3>Nowa wersja gitary, która na początku lat 90. była mocno maltretowana przez Kurta Cobain. Na szczególną uwagę zasługują DiMarzio PAF 36. rocznica i DP100 Super Distortion Humbucker.</h3>
+      <p><strong>Cechy:</strong></p>
+      <p>Kurt Cobain Signature<br>
+      Alder Body<br>
+      Maple Neck "C" - Profil szyi<br>
+      Rosewood Fingerboard<br>
+      Dot Inlays<br>
+      22 Medium Jumbo Frets<br>
+      1x DiMarzio DP103 PAF 36th Anniversary Humbucker (Neck Pickup)<br>
+      1x DiMarzio DP100 Super Distortion Humbucker (Bridge Pickup)<br>
+      Knob: 2x Volume, Master Tone, 3-way pickup switch<br>
+      Skala: 610 mm (24")<br>
+      Szerokość siodełka: 42 mm (1,65")<br>
+      Promień palca: 241 mm (9,5")<br>
+      Sprzęt: Nikiel/chrom/czarny chrom/czarny chromowo-czarny chromowo-matyczny most regulacyjny z pływającymi głowicami odlewanymi/uszczelnionymi syntetycznymi głowicami siodełek Gotoh®, w tym czarną winylową obudową i książką ze zdjęciami i komentarzami.</p>
+    </div>
+  </div>
+  
