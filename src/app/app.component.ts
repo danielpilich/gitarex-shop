@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from './navbar/navbar.component';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -9,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
   standalone: true,
   templateUrl: './app.component.html',
   imports: [
+    NavbarComponent,
     CommonModule, 
     RouterModule, 
     FooterComponent
