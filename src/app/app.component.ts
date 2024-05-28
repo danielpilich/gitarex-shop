@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { DiscountBarComponent } from './discount-bar/discount-bar.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     CommonModule, 
     RouterModule, 
-    FooterComponent
+    FooterComponent,
+    DiscountBarComponent
   ],
 })
 export class AppComponent {
@@ -21,10 +23,6 @@ export class AppComponent {
 
   constructor(private router: Router) {}
 
-  navigateToContact() {
-    console.log('Navigating to contact page');
-    this.router.navigate(['/contact']);
-  }
   navigateToProduct() {
     console.log('Navigating to product page');
     this.router.navigate(['/product']);

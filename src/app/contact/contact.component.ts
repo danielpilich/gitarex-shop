@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { DiscountBarComponent } from '../discount-bar/discount-bar.component';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule,DiscountBarComponent],
+  imports: [CommonModule, FormsModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
@@ -18,6 +17,5 @@ export class ContactComponent {
 
   onSubmit() {
     console.log('Form submitted', this.contactForm);
-    // Implement form submission logic here
   }
 }
