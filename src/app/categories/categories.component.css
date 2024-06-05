@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
   }
   
   .categories-grid {
@@ -26,10 +27,11 @@
     align-items: center;
     justify-content: space-between; /* Evenly space items */
     overflow: hidden; /* Ensure content doesn't overflow */
+    cursor: pointer;
   }
   
   .category img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 10px;
     flex-grow: 1; /* Allow the image to grow and take available space */

@@ -1,3 +1,8 @@
+footer{
+    padding: 50px 100px 0px 100px;
+    background-color: #d2dae225;
+}
+
 #column {
     display: grid;
     grid-auto-flow: column;
@@ -14,25 +19,35 @@
     margin: 0;
 }
 
-a {
-    color: inherit;
-}
-
 #copyright {
     padding-top: 30px;
     text-align: center;
     width: 100%;
 }
 
-#column-headers {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
 #contact{
     cursor: pointer;
 }
+
+#column-headers {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#column-headers:last-child{
+    cursor: pointer;
+}
+
+p, li{
+    cursor: pointer;
+}
+
 a{
+    
+    color: inherit;
+}
+
+#copyright a{
     font-size: 10px;
 }

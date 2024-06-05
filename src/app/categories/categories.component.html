@@ -1,7 +1,7 @@
 <div class="categories-container">
     <h2>Kategorie</h2>
     <div class="categories-grid">
-      <div class="category" *ngFor="let category of categories">
+      <div class="category" (click)="navigateToProduct()" *ngFor="let category of categories">
         <img [src]="category.icon" alt="{{ category.name }}">
         <p>{{ category.name }}</p>
       </div>

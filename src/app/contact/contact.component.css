@@ -1,15 +1,14 @@
 .contact-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
     text-align: center;
-  }
-  
+    padding-bottom: 20px;
+  }  
   
   .contact-info {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin-bottom: 50px;
   }
   
   .info-block {
@@ -23,6 +22,10 @@
   .contact-form-container h2 {
     margin-bottom: 20px;
   }
+
+  hr{
+    color: #d2dae250;
+  }
   
   form {
     display: flex;
@@ -31,8 +34,10 @@
   }
   
   label {
-    align-self: flex-start;
+    text-align: left;
     margin-bottom: 5px;
+    width: 100%;
+    max-width: 400px;
   }
   
   input[type="email"], textarea {
@@ -64,10 +69,6 @@
   
   .attachment {
     margin-top: 20px;
-  }
-  
-  .attachment h3 {
-    margin-bottom: 10px;
   }
   
   input[type="file"] {
