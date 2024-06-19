@@ -5,14 +5,19 @@ import { ContactComponent } from './app/contact/contact.component';
 import { AppComponent } from './app/app.component';
 import { ProductComponent } from './app/product/product.component';
 import { BlogPostComponent } from './app/blog/blog-post/blog-post.component';
+import { HttpClientModule } from '@angular/common/http';
+import { importProvidersFrom } from '@angular/core';
 
 const routes: Route[] = [
   { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'product', component: ProductComponent },
+  { path: 'product/:id', component: ProductComponent },
   { path: 'blog/blog-post', component: BlogPostComponent },
 ];
 
 bootstrapApplication(AppComponent, {
-  providers: [provideRouter(routes)],
+  providers: [
+    provideRouter(routes),
+    importProvidersFrom(HttpClientModule)
+  ],
 }).catch(err => console.error(err));

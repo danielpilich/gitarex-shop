@@ -1,4 +1,4 @@
-<div class="product-container">
+<div class="product-container" *ngIf="product.name">
   <div class="product-image">
     <img [src]="product.image" alt="{{ product.name }}">
   </div>
@@ -21,25 +21,13 @@
     </div>
   </div>
 </div>
-<div class="product-description-container">
+<div class="product-description-container" *ngIf="product.description">
   <div class="product-description">
-    <h3>Nowa wersja gitary, która na początku lat 90. była mocno maltretowana przez Kurta Cobain. Na szczególną uwagę
-      zasługują DiMarzio PAF 36. rocznica i DP100 Super Distortion Humbucker.</h3>
+    <h3>{{ product.description }}</h3>
     <p><strong>Cechy:</strong></p>
-    <p>Kurt Cobain Signature<br>
-      Alder Body<br>
-      Maple Neck "C" - Profil szyi<br>
-      Rosewood Fingerboard<br>
-      Dot Inlays<br>
-      22 Medium Jumbo Frets<br>
-      1x DiMarzio DP103 PAF 36th Anniversary Humbucker (Neck Pickup)<br>
-      1x DiMarzio DP100 Super Distortion Humbucker (Bridge Pickup)<br>
-      Knob: 2x Volume, Master Tone, 3-way pickup switch<br>
-      Skala: 610 mm (24")<br>
-      Szerokość siodełka: 42 mm (1,65")<br>
-      Promień palca: 241 mm (9,5")<br>
-      Sprzęt: Nikiel/chrom/czarny chrom/czarny chromowo-czarny chromowo-matyczny most regulacyjny z pływającymi
-      głowicami odlewanymi/uszczelnionymi syntetycznymi głowicami siodełek Gotoh®, w tym czarną winylową obudową i
-      książką ze zdjęciami i komentarzami.</p>
+    <p *ngFor="let feature of product.features">{{ feature }}</p>
   </div>
+</div>
+<div *ngIf="!product.name">
+  Ładowanie danych produktu...
 </div>
