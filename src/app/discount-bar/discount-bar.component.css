@@ -1,0 +1,9 @@
+.discount-bar {
+  background-color: #0FBCF9;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
