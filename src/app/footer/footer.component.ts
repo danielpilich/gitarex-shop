@@ -9,10 +9,15 @@ import { Router } from '@angular/router';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
   navigateToContact() {
     console.log('Navigating to contact page');
     this.router.navigate(['/contact']);
+  }
+
+  navigateToBlogPost() {
+    console.log('Navigating to blog post');
+    this.router.navigate(['/blog/blog-post']);
   }
 }
