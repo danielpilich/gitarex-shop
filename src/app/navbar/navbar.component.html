@@ -1,24 +1,25 @@
 <nav class="navbar">
     <div class="navbar-main">
-        <h1 (click)="navigateToHome()">Gitarex</h1>
-        <input type="text" placeholder="Wyszukaj towary...">
-        <div class="account-icon">
-            <img src="../../assets/navbar/user.png" alt="User Icon">
-        </div>
-        <div class="cart-icon">
-            <img src="../../assets/navbar/cart.png" alt="Cart Icon">
-        </div>
+      <h1 (click)="navigateToHome()">Gitarex</h1>
+      <input type="text" placeholder="Wyszukaj towary...">
+      <div class="account-icon">
+        <img src="../../assets/navbar/user.png" alt="User Icon">
+      </div>
+      <div class="cart-icon">
+        <img src="../../assets/navbar/cart.png" alt="Cart Icon">
+      </div>
     </div>
     <div class="navbar-categories">
-        <ul>
-            <li>Pokaż Wszystkie Kategorie</li>
-            <li>Gitary</li>
-            <li>Mikrofony</li>
-            <li>Kable</li>
-            <li>Basy</li>
-            <li>Oprogramowania</li>
-            <li>Klawisze</li>
-            <li>Perkusje</li>
-        </ul>
+      <ul>
+        <li (click)="navigateToCategory('')">Pokaż Wszystkie Kategorie</li>
+        <li (click)="navigateToCategory('Gitary')">Gitary</li>
+        <li (click)="navigateToCategory('Mikrofony')">Mikrofony</li>
+        <li (click)="navigateToCategory('Kable')">Kable</li>
+        <li (click)="navigateToCategory('Basy')">Basy</li>
+        <li (click)="navigateToCategory('Oprogramowania')">Oprogramowania</li>
+        <li (click)="navigateToCategory('Klawisze')">Klawisze</li>
+        <li (click)="navigateToCategory('Perkusje')">Perkusje</li>
+      </ul>
     </div>
-</nav>
+  </nav>
+  

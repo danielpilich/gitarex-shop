@@ -1,0 +1,15 @@
+<div *ngIf="products.length > 0">
+    <h2>Produkty w kategorii: {{ category }}</h2>
+    <div class="product-grid">
+      <div *ngFor="let product of products" class="product-item">
+        <img [src]="product.image" alt="{{ product.name }}">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.price | currency:'PLN' }}</p>
+        <a [routerLink]="['/product', product.id]">Zobacz szczegóły</a>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="products.length === 0">
+    <p>Brak produktów w tej kategorii.</p>
+  </div>
+  

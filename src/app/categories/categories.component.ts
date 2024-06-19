@@ -10,7 +10,7 @@ interface Category {
 @Component({
   selector: 'app-categories',
   standalone: true,
-  imports: [CommonModule], // Dodaj tutaj CommonModule
+  imports: [CommonModule],
   templateUrl: './categories.component.html',
   styleUrls: ['./categories.component.css']
 })
@@ -18,9 +18,9 @@ export class CategoriesComponent {
 
   constructor(private router: Router) {}
 
-  navigateToProduct() {
-    console.log('Navigating to product page');
-    this.router.navigate(['/product']);
+  navigateToCategory(category: string) {
+    console.log(`Navigating to category: ${category}`);
+    this.router.navigate(['/category', category]);
   }
 
   categories: Category[] = [
