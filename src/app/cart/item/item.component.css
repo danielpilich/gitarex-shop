@@ -1,0 +1,12 @@
+.item-icon {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-desc {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
