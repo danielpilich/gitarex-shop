@@ -1,48 +1,47 @@
 .categories-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns */
-    gap: 20px;
-    row-gap: 30px; /* Increase row gap to create more space between rows */
-    justify-items: center;
-  }
-  
-  .category {
-    width: 150px;
-    height: 150px; /* Ensure square dimensions */
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; /* Evenly space items */
-    overflow: hidden; /* Ensure content doesn't overflow */
-    cursor: pointer;
-  }
-  
-  .category img {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    flex-grow: 1; /* Allow the image to grow and take available space */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .category p {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0; /* Ensure no extra margin */
-  }
-  
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px;
+  row-gap: 30px; /* Increase row gap to create more space between rows */
+  justify-items: center;
+}
+
+.category {
+  width: 150px;
+  height: 200px; /* Increase height to accommodate text */
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Evenly space items */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  cursor: pointer;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1; /* Ensure the image is square */
+  object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+}
+
+.category p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0; /* Ensure no extra margin */
+  overflow-wrap: break-word; /* Ensure long words break and wrap */
+  white-space: normal; /* Ensure text wraps normally */
+}

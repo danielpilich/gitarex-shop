@@ -1,0 +1,429 @@
+[
+    {
+      "id": 1,
+      "name": "Fender Kurt Cobain Jaguar NOS 3TS",
+      "category": "Gitary",
+      "price": 250.00,
+      "oldPrice": 399.00,
+      "image": "assets/products/product1.webp",
+      "info": [
+        "Producent: Fender",
+        "Design: Jaguar",
+        "Body: Alder",
+        "Neck: Maple"
+      ],
+      "reviews": 120,
+      "rating": 4.5,
+      "description": "Nowa wersja gitary, która na początku lat 90. była mocno maltretowana przez Kurta Cobain. Na szczególną uwagę zasługują DiMarzio PAF 36. rocznica i DP100 Super Distortion Humbucker.",
+      "features": [
+        "Kurt Cobain Signature",
+        "Alder Body",
+        "Maple Neck \"C\" - Profil szyi",
+        "Rosewood Fingerboard",
+        "Dot Inlays",
+        "22 Medium Jumbo Frets",
+        "1x DiMarzio DP103 PAF 36th Anniversary Humbucker (Neck Pickup)",
+        "1x DiMarzio DP100 Super Distortion Humbucker (Bridge Pickup)",
+        "Knob: 2x Volume, Master Tone, 3-way pickup switch",
+        "Skala: 610 mm (24\")",
+        "Szerokość siodełka: 42 mm (1,65\")",
+        "Promień palca: 241 mm (9,5\")",
+        "Sprzęt: Nikiel/chrom/czarny chrom/czarny chromowo-czarny chromowo-matyczny most regulacyjny z pływającymi głowicami odlewanymi/uszczelnionymi syntetycznymi głowicami siodełek Gotoh®, w tym czarną winylową obudową i książką ze zdjęciami i komentarzami."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gibson Les Paul Standard 50s",
+      "category": "Gitary",
+      "price": 299.99,
+      "oldPrice": 499.99,
+      "image": "assets/products/product2.png",
+      "info": [
+        "Producent: Gibson",
+        "Design: Les Paul",
+        "Body: Mahogany",
+        "Neck: Mahogany"
+      ],
+      "reviews": 90,
+      "rating": 4.7,
+      "description": "Klasyczny model Les Paul z lat 50. z pięknym wykończeniem i dźwiękiem.",
+      "features": [
+        "Les Paul Standard",
+        "Mahogany Body",
+        "Mahogany Neck",
+        "Rosewood Fingerboard",
+        "Trapezoid Inlays",
+        "22 Medium Jumbo Frets",
+        "1x Burstbucker 1 (Neck Pickup)",
+        "1x Burstbucker 2 (Bridge Pickup)",
+        "Knob: 2x Volume, 2x Tone, 3-way pickup switch",
+        "Skala: 628 mm (24.75\")",
+        "Szerokość siodełka: 43 mm (1.69\")",
+        "Promień palca: 305 mm (12\")",
+        "Sprzęt: Nikiel"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ibanez RG550",
+      "category": "Gitary",
+      "price": 799.99,
+      "oldPrice": 999.99,
+      "image": "assets/products/product3.webp",
+      "info": [
+        "Producent: Ibanez",
+        "Design: RG",
+        "Body: Basswood",
+        "Neck: Maple/Walnut"
+      ],
+      "reviews": 150,
+      "rating": 4.6,
+      "description": "Popularny model RG550 od Ibanez, znany z wysokiej jakości wykonania i doskonałego brzmienia.",
+      "features": [
+        "Super Wizard Neck",
+        "Basswood Body",
+        "Maple/Walnut Neck",
+        "Rosewood Fingerboard",
+        "Dot Inlays",
+        "24 Jumbo Frets",
+        "V7, S1, V8 Pickups",
+        "Edge Tremolo",
+        "Knob: 1x Volume, 1x Tone, 5-way pickup switch",
+        "Skala: 648 mm (25.5\")",
+        "Szerokość siodełka: 43 mm (1.69\")",
+        "Promień palca: 430 mm (16.9\")",
+        "Sprzęt: Czarny"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "PRS SE Custom 24",
+      "category": "Gitary",
+      "price": 850.00,
+      "oldPrice": 1000.00,
+      "image": "assets/products/product4.png",
+      "info": [
+        "Producent: PRS",
+        "Design: Custom 24",
+        "Body: Mahogany",
+        "Neck: Maple"
+      ],
+      "reviews": 130,
+      "rating": 4.8,
+      "description": "Model SE Custom 24 od PRS oferuje wyjątkowe brzmienie i elegancki wygląd.",
+      "features": [
+        "Maple Top",
+        "Mahogany Body",
+        "Maple Neck",
+        "Rosewood Fingerboard",
+        "Bird Inlays",
+        "24 Frets",
+        "85/15 'S' Pickups",
+        "PRS Patented Tremolo",
+        "Knob: 1x Volume, 1x Tone, 3-way pickup switch",
+        "Skala: 635 mm (25\")",
+        "Szerokość siodełka: 42 mm (1.65\")",
+        "Promień palca: 254 mm (10\")",
+        "Sprzęt: Nikiel"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ESP LTD EC-1000",
+      "category": "Gitary",
+      "price": 950.00,
+      "oldPrice": 1200.00,
+      "image": "assets/products/product5.jpeg",
+      "info": [
+        "Producent: ESP",
+        "Design: Eclipse",
+        "Body: Mahogany",
+        "Neck: Mahogany"
+      ],
+      "reviews": 110,
+      "rating": 4.7,
+      "description": "Model EC-1000 od ESP LTD to doskonała gitara dla miłośników cięższych brzmień.",
+      "features": [
+        "Mahogany Body",
+        "Mahogany Neck",
+        "Ebony Fingerboard",
+        "Flag Inlays",
+        "24 XJ Frets",
+        "EMG 81/60 Pickups",
+        "TonePros Locking TOM & Tailpiece",
+        "Knob: 2x Volume, 1x Tone, 3-way pickup switch",
+        "Skala: 628 mm (24.75\")",
+        "Szerokość siodełka: 42 mm (1.65\")",
+        "Promień palca: 350 mm (13.8\")",
+        "Sprzęt: Czarny"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Yamaha Pacifica 112V",
+      "category": "Gitary",
+      "price": 300.00,
+      "oldPrice": 350.00,
+      "image": "assets/products/product6.webp",
+      "info": [
+        "Producent: Yamaha",
+        "Design: Pacifica",
+        "Body: Alder",
+        "Neck: Maple"
+      ],
+      "reviews": 200,
+      "rating": 4.5,
+      "description": "Model Pacifica 112V od Yamaha oferuje świetne brzmienie w przystępnej cenie.",
+      "features": [
+        "Alder Body",
+        "Maple Neck",
+        "Rosewood Fingerboard",
+        "Dot Inlays",
+        "22 Medium Frets",
+        "Alnico V Pickups",
+        "Vintage Tremolo",
+        "Knob: 1x Volume, 1x Tone, 5-way pickup switch",
+        "Skala: 648 mm (25.5\")",
+        "Szerokość siodełka: 41 mm (1.61\")",
+        "Promień palca: 350 mm (13.75\")",
+        "Sprzęt: Chrom"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Schecter Omen Extreme-6",
+      "category": "Gitary",
+      "price": 450.00,
+      "oldPrice": 500.00,
+      "image": "assets/products/product7.webp",
+      "info": [
+        "Producent: Schecter",
+        "Design: Omen",
+        "Body: Mahogany",
+        "Neck: Maple"
+      ],
+      "reviews": 95,
+      "rating": 4.4,
+      "description": "Schecter Omen Extreme-6 to gitara idealna dla rocka i metalu.",
+      "features": [
+        "Mahogany Body",
+        "Maple Neck",
+        "Rosewood Fingerboard",
+        "Vector Inlays",
+        "24 X-Jumbo Frets",
+        "Schecter Diamond Plus Pickups",
+        "Tune-O-Matic Bridge",
+        "Knob: 2x Volume, 1x Tone, 3-way pickup switch",
+        "Skala: 648 mm (25.5\")",
+        "Szerokość siodełka: 42 mm (1.65\")",
+        "Promień palca: 355 mm (14\")",
+        "Sprzęt: Czarny"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Shure SM7B",
+      "category": "Mikrofony",
+      "price": 399.00,
+      "oldPrice": 450.00,
+      "image": "assets/products/product8.png",
+      "info": [
+        "Producent: Shure",
+        "Typ: Dynamiczny",
+        "Pasmo przenoszenia: 50 Hz - 20 kHz",
+        "Złącze: XLR"
+      ],
+      "reviews": 150,
+      "rating": 4.9,
+      "description": "Shure SM7B to dynamiczny mikrofon znany z doskonałej jakości dźwięku, idealny do nagrywania wokali i instrumentów.",
+      "features": [
+        "Dynamiczny mikrofon",
+        "Pasmo przenoszenia 50 Hz - 20 kHz",
+        "Złącze XLR",
+        "Wbudowany pop-filtr",
+        "Przełącznik basu",
+        "Konstrukcja odporna na wstrząsy"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mogami Gold Instrument Cable",
+      "category": "Kable",
+      "price": 59.99,
+      "oldPrice": 79.99,
+      "image": "assets/products/product9.png",
+      "info": [
+        "Producent: Mogami",
+        "Typ: Kabel instrumentalny",
+        "Długość: 10 ft",
+        "Złącze: 1/4\" Jack"
+      ],
+      "reviews": 90,
+      "rating": 4.8,
+      "description": "Mogami Gold to wysokiej jakości kabel instrumentalny zapewniający czysty sygnał i trwałość.",
+      "features": [
+        "Długość 10 ft",
+        "Złącze 1/4\" Jack",
+        "Wysoka jakość wykonania",
+        "Odporność na zakłócenia",
+        "Złocone złącza",
+        "Wzmocniona izolacja"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fender Jazz Bass",
+      "category": "Basy",
+      "price": 1200.00,
+      "oldPrice": 1400.00,
+      "image": "assets/products/product10.webp",
+      "info": [
+        "Producent: Fender",
+        "Typ: Jazz Bass",
+        "Body: Alder",
+        "Neck: Maple"
+      ],
+      "reviews": 60,
+      "rating": 4.7,
+      "description": "Fender Jazz Bass to klasyczny bas o wszechstronnym brzmieniu i doskonałej jakości wykonania.",
+      "features": [
+        "Alder Body",
+        "Maple Neck",
+        "Rosewood Fingerboard",
+        "20 Medium Jumbo Frets",
+        "Dwa przetworniki single-coil",
+        "Regulacja: 2x Volume, 1x Tone",
+        "Skala: 34\"",
+        "Szerokość siodełka: 38 mm",
+        "Sprzęt: Chrom"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ableton Live 11 Suite",
+      "category": "Oprogramowania",
+      "price": 749.00,
+      "oldPrice": 799.00,
+      "image": "assets/products/product11.png",
+      "info": [
+        "Producent: Ableton",
+        "Typ: DAW",
+        "Platforma: Mac/PC"
+      ],
+      "reviews": 100,
+      "rating": 4.9,
+      "description": "Ableton Live 11 Suite to wszechstronne oprogramowanie DAW, idealne do produkcji muzyki na żywo i w studio.",
+      "features": [
+        "Wszechstronne oprogramowanie DAW",
+        "Ponad 70 GB zawartości dźwiękowej",
+        "Ponad 5000 dźwięków",
+        "17 instrumentów",
+        "59 efektów audio",
+        "Rodzaje ścieżek: MIDI, audio, efektów"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Yamaha PSR-E373",
+      "category": "Klawisze",
+      "price": 200.00,
+      "oldPrice": 250.00,
+      "image": "assets/products/product12.avif",
+      "info": [
+        "Producent: Yamaha",
+        "Typ: Keyboard",
+        "Ilość klawiszy: 61",
+        "Polifonia: 48"
+      ],
+      "reviews": 70,
+      "rating": 4.6,
+      "description": "Yamaha PSR-E373 to przenośny keyboard z szeroką gamą funkcji, idealny dla początkujących muzyków.",
+      "features": [
+        "61 klawiszy",
+        "Polifonia: 48 głosów",
+        "622 brzmienia",
+        "205 rytmów",
+        "LCD wyświetlacz",
+        "Wejście AUX",
+        "Rejestrator 2-ścieżkowy"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Roland TD-1DMK",
+      "category": "Perkusje",
+      "price": 650.00,
+      "oldPrice": 800.00,
+      "image": "assets/products/product13.webp",
+      "info": [
+        "Producent: Roland",
+        "Typ: Elektroniczna perkusja",
+        "Ilość padów: 8",
+        "Moduł: TD-1"
+      ],
+      "reviews": 85,
+      "rating": 4.8,
+      "description": "Roland TD-1DMK to elektroniczna perkusja idealna dla początkujących i zaawansowanych perkusistów.",
+      "features": [
+        "8 padów",
+        "Moduł TD-1",
+        "15 zestawów perkusyjnych",
+        "Coach funkcje",
+        "Wbudowany metronom",
+        "Wyjścia MIDI i USB",
+        "Regulacja wysokości statywu"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Marshall DSL40CR",
+      "category": "Wzmacniacze",
+      "price": 750.00,
+      "oldPrice": 900.00,
+      "image": "assets/products/product14.png",
+      "info": [
+        "Producent: Marshall",
+        "Typ: Combo",
+        "Moc: 40W",
+        "Lampy: ECC83, EL34"
+      ],
+      "reviews": 110,
+      "rating": 4.7,
+      "description": "Marshall DSL40CR to wszechstronny wzmacniacz lampowy o klasycznym brzmieniu Marshall.",
+      "features": [
+        "Moc 40W",
+        "Lampy ECC83, EL34",
+        "2 kanały",
+        "Reverb",
+        "Pentode/Triode przełącznik",
+        "Wyjście na słuchawki",
+        "FX Loop"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Planet Waves Guitar Strap",
+      "category": "Akcesoria",
+      "price": 25.00,
+      "oldPrice": 30.00,
+      "image": "assets/products/product15.webp",
+      "info": [
+        "Producent: Planet Waves",
+        "Typ: Pasek gitarowy",
+        "Materiał: Nylon",
+        "Długość: Regulowana"
+      ],
+      "reviews": 50,
+      "rating": 4.5,
+      "description": "Planet Waves Guitar Strap to wygodny pasek gitarowy wykonany z trwałego nylonu.",
+      "features": [
+        "Materiał: Nylon",
+        "Regulowana długość",
+        "Szerokość: 2\"",
+        "Wytrzymałe zapięcia",
+        "Dostępny w różnych kolorach",
+        "Antypoślizgowy"
+      ]
+    }
+  ]
+  
