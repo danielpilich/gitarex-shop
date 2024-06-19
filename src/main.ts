@@ -5,14 +5,18 @@ import { ContactComponent } from './app/contact/contact.component';
 import { AppComponent } from './app/app.component';
 import { ProductComponent } from './app/product/product.component';
 import { BlogPostComponent } from './app/blog/blog-post/blog-post.component';
+import { CartComponent } from './app/cart/cart.component';
 
 const routes: Route[] = [
   { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'product', component: ProductComponent },
   { path: 'blog/blog-post', component: BlogPostComponent },
+  { path: 'cart' , component: CartComponent  },
 ];
 
 bootstrapApplication(AppComponent, {
-  providers: [provideRouter(routes)],
+  providers: [
+    provideRouter(routes)
+  ],
 }).catch(err => console.error(err));

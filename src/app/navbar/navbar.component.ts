@@ -15,4 +15,9 @@ export class NavbarComponent {
     console.log('Navigating to home page');
     this.router.navigate(['']);
   }
+
+  navigateToCart() {
+    console.log('Navigating to cart page');
+    this.router.navigate(['/cart']);
+  }
 }
