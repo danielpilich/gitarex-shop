@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { DiscountBarComponent } from './discount-bar/discount-bar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { DiscountBarComponent } from './discount-bar/discount-bar.component';
     CommonModule, 
     RouterModule, 
     FooterComponent,
-    DiscountBarComponent
+    DiscountBarComponent,
+    HttpClientModule
   ],
 })
 export class AppComponent {

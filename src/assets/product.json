@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Fender Kurt Cobain Jaguar NOS 3TS",
+      "price": 250.00,
+      "oldPrice": 399.00,
+      "image": "assets/products/product1.webp",
+      "info": [
+        "Producent: Fender",
+        "Design: Jaguar",
+        "Body: Alder",
+        "Neck: Maple"
+      ],
+      "reviews": 120,
+      "rating": 4.5,
+      "description": "Nowa wersja gitary, która na początku lat 90. była mocno maltretowana przez Kurta Cobain. Na szczególną uwagę zasługują DiMarzio PAF 36. rocznica i DP100 Super Distortion Humbucker.",
+      "features": [
+        "Kurt Cobain Signature",
+        "Alder Body",
+        "Maple Neck \"C\" - Profil szyi",
+        "Rosewood Fingerboard",
+        "Dot Inlays",
+        "22 Medium Jumbo Frets",
+        "1x DiMarzio DP103 PAF 36th Anniversary Humbucker (Neck Pickup)",
+        "1x DiMarzio DP100 Super Distortion Humbucker (Bridge Pickup)",
+        "Knob: 2x Volume, Master Tone, 3-way pickup switch",
+        "Skala: 610 mm (24\")",
+        "Szerokość siodełka: 42 mm (1,65\")",
+        "Promień palca: 241 mm (9,5\")",
+        "Sprzęt: Nikiel/chrom/czarny chrom/czarny chromowo-czarny chromowo-matyczny most regulacyjny z pływającymi głowicami odlewanymi/uszczelnionymi syntetycznymi głowicami siodełek Gotoh®, w tym czarną winylową obudową i książką ze zdjęciami i komentarzami."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gibson Les Paul Standard 50s",
+      "price": 299.99,
+      "oldPrice": 499.99,
+      "image": "assets/products/product2.webp",
+      "info": [
+        "Producent: Gibson",
+        "Design: Les Paul",
+        "Body: Mahogany",
+        "Neck: Mahogany"
+      ],
+      "reviews": 90,
+      "rating": 4.7,
+      "description": "Klasyczny model Les Paul z lat 50. z pięknym wykończeniem i dźwiękiem.",
+      "features": [
+        "Les Paul Standard",
+        "Mahogany Body",
+        "Mahogany Neck",
+        "Rosewood Fingerboard",
+        "Trapezoid Inlays",
+        "22 Medium Jumbo Frets",
+        "1x Burstbucker 1 (Neck Pickup)",
+        "1x Burstbucker 2 (Bridge Pickup)",
+        "Knob: 2x Volume, 2x Tone, 3-way pickup switch",
+        "Skala: 628 mm (24.75\")",
+        "Szerokość siodełka: 43 mm (1.69\")",
+        "Promień palca: 305 mm (12\")",
+        "Sprzęt: Nikiel"
+      ]
+    }
+  ]
+  
