@@ -4,7 +4,10 @@
         <div class="items-container">
             @for (item of items; track item) {
                 <div class="item">
-                    <app-item [item]="item"></app-item>
+                    <app-item 
+                    [item]="item"
+                    (onRemove)="removeItem(item)"
+                    ></app-item>
                 </div>
             }
         </div>

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CartItem } from './item';
 import { CurrencyPipe } from '@angular/common';
 
@@ -11,4 +11,9 @@ import { CurrencyPipe } from '@angular/common';
 })
 export class ItemComponent {
   @Input() item!: CartItem;
+  @Output() onRemove = new EventEmitter<never>();
+
+  remove() {
+    this.onRemove.emit();
+  }
 }

@@ -31,4 +31,8 @@ export class CartComponent {
     console.log('Navigating to order page');
     this.router.navigate(['/order']);
   }
+
+  removeItem(item: CartItem) {
+    this.items = this.items.filter((i) => i !== item);
+  }
 }
